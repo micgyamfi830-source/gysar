@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - GYSAR Global Holdings</title>
+  <meta name="description" content="Explore the comprehensive range of services offered by GYSAR Holdings Limited across all subsidiaries.">
+  <link rel="icon" type="image/svg+xml" href="assets/logo/logo-light.svg">
+  <link rel="manifest" href="manifest.json">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div id="preloader"><div class="loader"><span class="loader-text">Loading</span></div></div>
+  <a href="https://wa.me/233553682566" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+  <a href="#" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+  <div class="chat-toggle" role="button" aria-label="Open chat"><i class="fas fa-comment-dots"></i></div>
+  <div class="chat-widget">
+    <div class="chat-header"><h6 data-i18n="chat.title"><i class="fas fa-robot"></i> GYSAR Assistant</h6><span class="close-chat"><i class="fas fa-times"></i></span></div>
+    <div class="chat-body"><div class="chat-msg bot"><div class="chat-avatar"><i class="fas fa-robot"></i></div><div class="msg-text">Hello! Welcome to GYSAR Global Holdings. How can I assist you today?</div></div></div>
+    <div class="chat-footer"><input type="text" placeholder="Type your message..." data-i18n="chat.placeholder" aria-label="Chat message"><button aria-label="Send message"><i class="fas fa-paper-plane"></i></button></div>
+  </div>
+
+  <!-- Notification Bar -->
+  <div class="notification-bar">
+    <div class="container">
+      <p class="notification-msg"><i class="fas fa-bullhorn me-2"></i> Welcome to GYSAR Global Holdings — One Group, Endless Possibilities. Explore our family of companies!</p>
+      <button class="close-notification" aria-label="Close">&times;</button>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html"><img src="assets/logo/logo-light.svg" alt="GYSAR Logo"><div><span>GYSAR</span><small>Global Holdings</small></div></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"><i class="fas fa-bars"></i></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html" data-i18n="nav.home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html" data-i18n="nav.about">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="services.html" data-i18n="nav.services">Services</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-i18n="nav.subsidiaries">Subsidiaries</a>
+            <div class="dropdown-menu mega-menu"><div class="row">
+              <div class="col-4"><a class="mega-item" href="subsidiaries.html#pharmacy"><i class="fas fa-prescription-bottle-alt"></i><span>Pharmacy</span></a></div>
+              <div class="col-4"><a class="mega-item" href="subsidiaries.html#fashion"><i class="fas fa-tshirt"></i><span>Fashion</span></a></div>
+              <div class="col-4"><a class="mega-item" href="subsidiaries.html#motors"><i class="fas fa-car"></i><span>Motors</span></a></div>
+              <div class="col-4"><a class="mega-item" href="subsidiaries.html#banking"><i class="fas fa-university"></i><span>Banking</span></a></div>
+              <div class="col-4"><a class="mega-item" href="subsidiaries.html#hospital"><i class="fas fa-hospital"></i><span>Hospital</span></a></div>
+              <div class="col-4"><a class="mega-item" href="subsidiaries.html#appliances"><i class="fas fa-blender-phone"></i><span>Appliances</span></a></div>
+              <div class="col-4"><a class="mega-item" href="subsidiaries.html#construction"><i class="fas fa-hard-hat"></i><span>Construction</span></a></div>
+              <div class="col-4"><a class="mega-item" href="subsidiaries.html#materials"><i class="fas fa-tools"></i><span>Materials</span></a></div>
+              <div class="col-4"><a class="mega-item" href="subsidiaries.html#nsuopa"><i class="fas fa-tint"></i><span>Nsuo Pa</span></a></div>
+              <div class="col-4"><a class="mega-item" href="subsidiaries.html#ict"><i class="fas fa-microchip"></i><span>ICT Solutions</span></a></div>
+            </div></div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="careers.html" data-i18n="nav.careers">Careers</a></li>
+          <li class="nav-item"><a class="nav-link" href="news.html" data-i18n="nav.news">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html" data-i18n="nav.contact">Contact</a></li>
+          <li class="nav-item dropdown lang-switcher">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-globe me-1"></i><span class="lang-label">EN</span></a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item lang-option active" href="#" data-lang="en">🇬🇧 English</a></li>
+              <li><a class="dropdown-item lang-option" href="#" data-lang="fr">🇫🇷 Français</a></li>
+              <li><a class="dropdown-item lang-option" href="#" data-lang="tw">🇬🇭 Twi</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="breadcrumb-section">
+    <div class="breadcrumb-bg" style="background-image:url('assets/images/about-2.jpg')"></div>
+    <div class="breadcrumb-overlay"></div>
+    <div class="container">
+      <h1 data-i18n="services.title">Our <span class="text-gold">Services</span></h1>
+      <nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="index.html" data-i18n="nav.home">Home</a></li><li class="breadcrumb-item active" aria-current="page" data-i18n="nav.services">Services</li></ol></nav>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="subtitle" data-i18n="services.subtitle">What We Offer</span>
+        <h2>Comprehensive <span class="text-gold">Services</span></h2>
+        <div class="title-line"></div>
+        <p data-i18n="services.desc">From healthcare to construction, we provide end-to-end solutions across eleven key industries.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-detail-card">
+            <div class="service-icon"><i class="fas fa-prescription-bottle-alt"></i></div>
+            <h4>Pharmacy Services</h4>
+            <p class="service-desc">Your trusted source for quality medications and health products. We offer prescription fulfillment, over-the-counter medicines, and professional health consultations with free delivery across Kumasi.</p>
+            <ul>
+              <li>Prescription medicines</li>
+              <li>Over-the-counter drugs</li>
+              <li>Medical supplies</li>
+              <li>Health consultations</li>
+              <li>Free delivery</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-detail-card">
+            <div class="service-icon"><i class="fas fa-tshirt"></i></div>
+            <h4>Fashion Services</h4>
+            <p class="service-desc">Discover premium clothing, footwear, and accessories blending contemporary trends with authentic African heritage. Custom tailoring and bulk corporate orders available.</p>
+            <ul>
+              <li>Men's & women's clothing</li>
+              <li>Footwear & accessories</li>
+              <li>African print designs</li>
+              <li>Custom tailoring</li>
+              <li>Bulk corporate orders</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-detail-card">
+            <div class="service-icon"><i class="fas fa-car"></i></div>
+            <h4>Automotive Services</h4>
+            <p class="service-desc">Quality vehicles with flexible financing options. From reliable family cars to commercial trucks, we help you drive away with confidence and comprehensive after-sales support.</p>
+            <ul>
+              <li>New & used car sales</li>
+              <li>Vehicle financing</li>
+              <li>Trade-in options</li>
+              <li>Insurance processing</li>
+              <li>After-sales service</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-detail-card">
+            <div class="service-icon"><i class="fas fa-university"></i></div>
+            <h4>Banking Services</h4>
+            <p class="service-desc">Modern financial solutions designed for individuals and businesses. From savings and loans to mobile banking, we make managing your money simple and accessible.</p>
+            <ul>
+              <li>Savings accounts</li>
+              <li>Business loans</li>
+              <li>Microfinance solutions</li>
+              <li>Mobile banking</li>
+              <li>Money transfers</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-detail-card">
+            <div class="service-icon"><i class="fas fa-hospital"></i></div>
+            <h4>Healthcare Services</h4>
+            <p class="service-desc">Comprehensive medical care with modern diagnostics and compassionate staff. We offer general consultations, maternity care, laboratory services, and an on-site pharmacy.</p>
+            <ul>
+              <li>General consultations</li>
+              <li>Diagnostic imaging</li>
+              <li>Laboratory services</li>
+              <li>Maternity care</li>
+              <li>Pharmacy on-site</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-detail-card">
+            <div class="service-icon"><i class="fas fa-blender-phone"></i></div>
+            <h4>Home Appliances</h4>
+            <p class="service-desc">Everything you need for a modern home. We stock top-brand electronics, kitchen appliances, entertainment systems, and provide professional installation services.</p>
+            <ul>
+              <li>Kitchen appliances</li>
+              <li>Electronics & gadgets</li>
+              <li>Home entertainment</li>
+              <li>Air conditioning</li>
+              <li>Installation services</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-detail-card">
+            <div class="service-icon"><i class="fas fa-hard-hat"></i></div>
+            <h4>Construction Services</h4>
+            <p class="service-desc">End-to-end construction solutions from design to delivery. We build residential, commercial, and industrial projects with a commitment to quality, safety, and timelines.</p>
+            <ul>
+              <li>Residential building</li>
+              <li>Commercial construction</li>
+              <li>Renovations</li>
+              <li>Project management</li>
+              <li>Architectural design</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-detail-card">
+            <div class="service-icon"><i class="fas fa-tools"></i></div>
+            <h4>Building Materials</h4>
+            <p class="service-desc">Premium construction materials at competitive prices. We supply cement, steel, roofing, plumbing, and electrical materials with bulk delivery to your project site.</p>
+            <ul>
+              <li>Cement & concrete</li>
+              <li>Iron rods & steel</li>
+              <li>Roofing sheets</li>
+              <li>Plumbing materials</li>
+              <li>Bulk delivery</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-detail-card">
+            <div class="service-icon"><i class="fas fa-tint"></i></div>
+            <h4>Water Production</h4>
+            <p class="service-desc">Pure, refreshing drinking water produced to international quality standards. Available in sachets and bottles, with home and corporate delivery services across Ghana.</p>
+            <ul>
+              <li>Pure drinking water</li>
+              <li>Sachet water</li>
+              <li>Bottled water</li>
+              <li>Home delivery</li>
+              <li>Corporate supply</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-detail-card">
+            <div class="service-icon"><i class="fas fa-microchip"></i></div>
+            <h4>ICT Solutions</h4>
+            <p class="service-desc">Digital innovation for modern businesses. We build web and mobile applications, implement AI solutions, and guide your digital transformation journey with expert consulting.</p>
+            <ul>
+              <li>Web application development</li>
+              <li>AI & machine learning</li>
+              <li>Mobile app development</li>
+              <li>Cloud & DevOps services</li>
+              <li>Digital transformation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="subtitle" data-i18n="services.compare.subtitle">Compare</span>
+        <h2>Service <span class="text-gold">Comparison</span></h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="table-responsive" data-aos="fade-up">
+        <table class="table table-compare table-bordered bg-white">
+          <thead>
+            <tr><th>Service</th><th>Online</th><th>In-Store</th><th>Delivery</th><th>Support</th><th>Pricing</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Pharmacy</td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-check text-success"></i></td><td>24/7</td><td>Market</td></tr>
+            <tr class="featured"><td>Fashion</td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-check text-success"></i></td><td>Business Hours</td><td>Fixed</td></tr>
+            <tr><td>Motors</td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-times text-danger"></i></td><td>Business Hours</td><td>Negotiable</td></tr>
+            <tr class="featured"><td>Banking</td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-times text-danger"></i></td><td>24/7</td><td>Regulated</td></tr>
+            <tr><td>Hospital</td><td>Booking</td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-times text-danger"></i></td><td>24/7</td><td>Insurance</td></tr>
+            <tr class="featured"><td>Appliances</td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-check text-success"></i></td><td>Business Hours</td><td>Fixed</td></tr>
+            <tr><td>Construction</td><td>Consultation</td><td>Site Visit</td><td><i class="fas fa-times text-danger"></i></td><td>Project Based</td><td>Project</td></tr>
+            <tr class="featured"><td>Materials</td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-check text-success"></i></td><td>Business Hours</td><td>Market</td></tr>
+            <tr><td>Nsuo Pa</td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-check text-success"></i></td><td>Business Hours</td><td>Fixed</td></tr>
+            <tr class="featured"><td>ICT Solutions</td><td><i class="fas fa-check text-success"></i></td><td>Consultation</td><td><i class="fas fa-check text-success"></i></td><td>24/7</td><td>Project</td></tr>
+            <tr><td>Insurance</td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-check text-success"></i></td><td><i class="fas fa-check text-success"></i></td><td>24/7</td><td>Quote</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="subtitle" data-i18n="services.request">Request</span>
+        <h2>Request a <span class="text-gold">Quote</span></h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8" data-aos="fade-up">
+          <form id="pricingForm" class="p-4 bg-light rounded-4">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-floating-custom">
+                  <input type="text" id="pName" placeholder="Full Name" required data-i18n="form.name">
+                  <label for="pName" data-i18n="form.name">Full Name</label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-floating-custom">
+                  <input type="email" id="pEmail" placeholder="Email Address" required data-i18n="form.email">
+                  <label for="pEmail" data-i18n="form.email">Email Address</label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-floating-custom">
+                  <input type="tel" id="pPhone" placeholder="Phone Number" data-i18n="form.phone">
+                  <label for="pPhone" data-i18n="form.phone">Phone Number</label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-floating-custom">
+                  <select id="pService">
+                    <option value="" data-i18n="form.select.service">Select Service</option>
+                    <option>Pharmacy</option>
+                    <option>Fashion</option>
+                    <option>Motors</option>
+                    <option>Banking</option>
+                    <option>Hospital</option>
+                    <option>Appliances</option>
+                    <option>Construction</option>
+                    <option>Building Materials</option>
+                    <option>Water Supply</option>
+                    <option>ICT Solutions</option>
+                  </select>
+                  <label for="pService" data-i18n="form.services">Service Needed</label>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-floating-custom">
+                  <textarea id="pDetails" placeholder="Tell us about your requirements" rows="4" data-i18n="form.message"></textarea>
+                  <label for="pDetails" data-i18n="form.message">Requirements Details</label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn-submit" data-i18n="form.submit">Request Quote</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start mb-3 mb-lg-0"><h3 data-i18n="footer.newsletter">Subscribe to Our Newsletter</h3><p data-i18n="footer.newsletter.desc">Stay updated with the latest news, offers, and corporate updates.</p></div>
+        <div class="col-lg-6"><form class="newsletter-form input-group"><input type="email" class="form-control" placeholder="Enter your email" required data-i18n="footer.newsletter.placeholder"><button type="submit" data-i18n="footer.newsletter.btn">Subscribe</button></form></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4"><a class="d-flex align-items-center mb-3" href="index.html"><img src="assets/logo/logo-light.svg" alt="GYSAR" loading="lazy" style="height:50px;margin-right:12px;"><div><h5 class="mb-0 text-white" style="padding-bottom:0;">GYSAR</h5><small class="text-gold" style="letter-spacing:2px;text-transform:uppercase;">Global Holdings</small></div></a><p data-i18n="footer.tagline">Building Wealth, Transforming Lives, Creating Opportunities. A diversified multinational conglomerate committed to excellence across eleven key industries.</p><div class="social-links"><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a><a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a></div></div>
+        <div class="col-lg-2 col-md-4"><h5 data-i18n="footer.quick">Quick Links</h5><ul><li><a href="index.html">data-i18n="nav.home"</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">data-i18n="nav.services"</a></li><li><a href="subsidiaries.html">Subsidiaries</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="careers.html">data-i18n="nav.careers"</a></li><li><a href="news.html">data-i18n="nav.news"</a></li><li><a href="contact.html">data-i18n="nav.contact"</a></li></ul></div>
+        <div class="col-lg-3 col-md-4"><h5 data-i18n="footer.subs">Subsidiaries</h5><ul><li><a href="subsidiaries.html#pharmacy">GYSAR Pharmacy</a></li><li><a href="subsidiaries.html#fashion">GYSAR Fashion</a></li><li><a href="subsidiaries.html#motors">GYSAR Motors</a></li><li><a href="subsidiaries.html#banking">GYSAR Banking</a></li><li><a href="subsidiaries.html#hospital">GYSAR Hospital</a></li><li><a href="subsidiaries.html#appliances">Home Appliances</a></li><li><a href="subsidiaries.html#construction">GYSAR Construction</a></li><li><a href="subsidiaries.html#materials">Building Materials</a></li><li><a href="subsidiaries.html#nsuopa">GYSAR Nsuo Pa</a></li><li><a href="subsidiaries.html#ict">GYSAR ICT Solutions</a></li>
+<li><a href="subsidiaries.html#insurance">GYSAR Insurance</a></li></ul></div>
+        <div class="col-lg-3 col-md-4"><h5 data-i18n="footer.connect">Contact Info</h5><ul class="list-unstyled"><li class="d-flex mb-3"><i class="fas fa-map-marker-alt text-gold me-3 mt-1"></i><span>Anloga Onion Market, Kumasi, Ashanti Region, Ghana</span></li><li class="d-flex mb-3"><i class="fas fa-phone text-gold me-3 mt-1"></i><a href="tel:0559296561" style="color:var(--silver);">0559296561</a></li><li class="d-flex mb-3"><i class="fas fa-envelope text-gold me-3 mt-1"></i><a href="mailto:info@gysargroup.com" style="color:var(--silver);">info@gysargroup.com</a></li><li class="d-flex mb-3"><i class="fas fa-headset text-gold me-3 mt-1"></i><a href="mailto:support@gysargroup.com" style="color:var(--silver);">support@gysargroup.com</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><p data-i18n="footer.copyright">&copy; 2026 GYSAR Holdings Limited. All Rights Reserved. | <span class="text-gold">Building Wealth, Transforming Lives, Creating Opportunities.</span></p></div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('pricingForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      var btn = this.querySelector('.btn-submit');
+      btn.textContent = 'Request Sent!';
+      btn.style.background = '#28a745';
+      this.reset();
+      setTimeout(function(){ btn.textContent = 'Request Quote'; btn.style.background = ''; }, 3000);
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>if("serviceWorker"in navigator){window.addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").catch(()=>{})})}</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
